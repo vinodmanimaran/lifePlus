@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .grid-container {
   margin-top: 2rem;
   display: grid;

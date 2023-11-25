@@ -45,7 +45,10 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="header_container" >
+            <div className='header' style={{width:"1060px",marginLeft:"-4.1%"}}>
+
+    <div className="header_container"  >
+
       <div className={`header ${isMobile ? 'mobile-header' : ''}`}>
         <div className='logo'>
           <Link to='/'>
@@ -112,6 +115,7 @@ const Header = () => {
         </div>
       </div>
     </div>  
+    </div>
   );
 };
 

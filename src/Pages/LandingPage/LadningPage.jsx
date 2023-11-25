@@ -25,8 +25,8 @@ import wightStar from '../../Assets/Images/Star-Wight.png';
 import { BsArrowRightShort } from 'react-icons/bs';
 import { MdArrowDropDown } from 'react-icons/md';
 import offerSideImage from '../../Assets/Images/special-offer-side-image.png';
-// import offerEndImg from '../../Assets/Images/offer-end-picture-removebg-preview.png';
-import DrImg from '../../Assets/Images/Doctors-removebg-preview.png';
+// imp  ort offerEndImg from '../../Assets/Images/offer-end-picture-removebg-preview.png';
+import   DrImg from '../../Assets/Images/Doctors-removebg-preview.png';
 import happyClient1 from '../../Assets/Images/Happy-Client-2.png';
 import happyClient3 from '../../Assets/Images/Happy-Client-3-removebg-preview.png';
 import InsuranceSlider from '../../Components/InsuranceSlider/InsuranceSlider.jsx'
@@ -62,10 +62,8 @@ const handleClose3 = () => {
 
   return (
     <>
-      <div className='main' style={{marginLeft:"-7%"}}>
-        <div className='header' style={{width:"1060px"}}>
+      <div className='main'>
           <Header />
-        </div>
 
         {/* Offer and Slider section */}
         <section>

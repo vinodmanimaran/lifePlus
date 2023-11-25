@@ -50,7 +50,7 @@ const itemStyle = {
   borderRadius: '10px',
   width: '200px',
   height: '200px',
-  marginLeft:"50%"
+  marginLeft:"20px"
 };
 
   return (
@@ -69,8 +69,8 @@ const itemStyle = {
           </Row>
           <Row>
             {values.map ((value, index) => (
-              <Col key={index} className="value-item">
-                <div className="value">
+              <Col key={index} className="value-item" >
+                <div className="value" >
                   <Card className="facility_card" style={itemStyle}>
                     <Card.Body>
                       <span className="value_icon" style={{width: '100px'}}>

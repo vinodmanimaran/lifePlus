@@ -1,0 +1,219 @@
+.customer_form {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.input_row {
+    margin-bottom: 10px;
+}
+
+.detail-label {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin-bottom: 4px !important;
+    color: #333 !important;
+    display: block !important;
+}
+
+.input-field {
+    width: 180px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-top: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #4caf50;
+}
+
+.pin_location{
+    padding: 15px;
+    border-radius: 25px;
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: -5px;
+}
+
+.map{
+    border: 1px solid black;
+    width: 80px;
+}
+
+.map_img{
+    border: 1px solid black;
+    margin-left: 500px;
+    height: 400px;
+}
+
+ .sub_total_card{
+        width: 480px;
+            /* height: 250px; */
+            background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            border: 1px solid #e0e0e0;
+ }
+
+ .product_details_card{
+border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #f7f7f7, #e0e0e0);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.productName,.productdate,.producttime,.productmethod{
+    margin-left: 20px;
+}
+ .pay_btn{
+    margin-left:150px ;
+        margin-top: 10px;
+        width: 130px;
+        font-size: 16px;
+        padding: 12px;
+        border: 1px solid #df2e26;
+        border-radius: 8px;
+        background-color: #df2e26;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.5);
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        white-space: nowrap;
+ }
+
+ .pay_btn:hover{
+    background-color: darkred;
+ }
+
+ .product_price_details{
+    margin-left: 300px;
+    margin-top: 10px;
+ }
+/* Container Styling */
+.product_price_gst,
+.product_price_actual {
+    border: 2px solid #3498db;
+    /* Change border color to a prominent color */
+    border-radius: 25px;
+    margin: 10px;
+    background-color: #ecf0f1;
+    /* Light background color */
+    /* Add padding for better spacing */
+    transition: box-shadow 0.3s ease, background 0.3s ease, border 0.3s ease;
+    /* Add border transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styling */
+.product_price_gst,
+.product_price_actual {
+    color: #333;
+    /* Dark text color */
+    font-size: 18px;
+    /* Adjust font size as needed */
+}
+
+/* Inner Text Styling (assuming these are child elements) */
+.product_price_gst span,
+.product_price_actual span {
+    font-weight: bold;
+    /* Make text bold */
+    color: #e74c3c;
+    /* Red color for emphasis */
+}
+
+/* Additional Value Styling */
+.actual_price,
+.gst {
+    margin: 10px;
+    background-color: #ecf0f1;
+    /* Light background color */
+    /* Add padding for better spacing */
+    font-size: 16px;
+    /* Adjust font size as needed */
+    color: #555;
+    /* Dark text color */
+}
+
+/* Hover Effect */
+.product_price_gst:hover,
+.product_price_actual:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), inset 0 0 15px rgba(0, 0, 0, 0.2);
+    /* Increase box shadow on hover */
+    background-color: #f2f2f2;
+    /* Lighten background color on hover */
+    border: 2px solid #2980b9;
+    /* Change border color on hover */
+}
+ .save_btn{
+    margin-left: 45px;
+        margin-top: 10px;
+        width: 130px;
+        font-size: 16px;
+        padding: 12px;
+        border: 1px solid #df2e26;
+        border-radius: 8px;
+        background-color: #df2e26;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.5);
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        white-space: nowrap;
+ }
+
+ .product_details_card{
+    display: flex;
+    flex-direction: row;
+ }
+
+ /* .product_price{
+    margin-left: 210px;
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 20px;
+    padding: 30px;
+    border-radius: 25px;
+ } */
+
+.product_price{
+        margin-left: 60px;
+            margin-top: 20px;
+      background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+    height: 25px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.product{
+    margin: 0;
+}
+
+.productdate,.producttime,.productmethod{
+    display: flex;
+    flex-direction: row;
+    white-space:nowrap;
+    font-size: 12px;
+}
+
+.productType{
+    margin: 10px;
+}
+
+.sub_total_title{
+    margin-left: -60px  !important;
+}

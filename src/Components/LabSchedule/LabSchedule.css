@@ -1,0 +1,173 @@
+
+.scheduler-container {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+}
+.time-slot-col{
+}
+.time-slot-row{
+    width: 10px;
+    height: 120px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 3px;
+    margin-bottom: -25px;
+
+}
+
+.scheduler-title {
+    font-size: 24px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.date-slider-container {
+    margin-bottom: 20px;
+}
+
+.date-slider-row {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.date-item {
+    cursor: pointer;
+    padding: 10px;
+    font-size:10px;
+    width:60px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* .date-item:hover {
+    background-color: #f0f0f0;
+} */
+
+.date-item.selected {
+    background-color: red;
+    color: #fff;
+}
+
+.date-label {
+    font-size: 18px;
+}
+
+.slots-count {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+}
+
+.selected-date-container {
+    margin-bottom: 20px;
+}
+
+.arrow-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -55px;
+}
+
+.arrow-icon {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+.time-slot-btn {
+    margin: 5px;
+}
+
+.time-slot-col {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    padding: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    width: 40px;
+    margin-top: -10%;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.time-slot-btn {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.morning {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.evening {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.time_slot_even {
+    margin: 30px;
+}
+
+.time-slot-btn:hover {
+    background: #0f234f;
+}
+
+.afternoon{
+    display:flex;
+    flex-direction: row;
+}
+.time_slot_afternoon{
+    font-size:small;
+        white-space: nowrap;
+                    margin-left: -45px;
+                        padding: 20px;
+                        text-align: left;
+}
+
+.time_slot_morn {
+    font-size: small;
+    white-space:nowrap;
+                margin-left: -48px;
+            padding: 20px;
+            text-align: left;
+            margin-top: -10%;
+
+}
+
+.time-slot-row_morning{
+    margin-left: 30px;
+}
+.time_slot_even {
+    font-size: small;
+        white-space: nowrap;
+            margin-left: -35px;
+            padding: 10px;
+            text-align: left;
+            margin-top:9px;
+}
+
+.close-btn{
+    margin-left:95%;
+    cursor:pointer;
+    font-size:15px;
+    font-weight: bold;
+    margin-top:-3%;
+
+}
+

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-const Pharmacy = () => {
+const Pharm = () => {
   return (
     <div>
       <NavDropdown id='nav-dropdown-dark-example' title='Pharmacy'>
@@ -13,4 +13,4 @@ const Pharmacy = () => {
   );
 };
 
-export default Pharmacy;
+export default Pharm;

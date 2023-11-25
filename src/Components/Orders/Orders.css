@@ -1,0 +1,298 @@
+.order_img{
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+.patient_details{
+    margin-top:15px;
+}
+.consultation_img{
+    margin-top: -180px!important;
+        margin-left: 350px;
+        background: white;
+}
+.doctor_name{
+            margin-left: 330px;
+            white-space: nowrap;
+            margin-top: -3px;
+}
+.pay_now {
+    width: 120px;
+    margin-left: 330px;
+    margin-top: -15px;
+    background: linear-gradient(45deg, #ff5050, #ff0000);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.pay_now:hover {
+    background: linear-gradient(45deg, #cc0000, #990000);
+    transform: scale(1.05);
+}
+.consultation-card{
+    width: 480px;
+    height: 250px;
+    background: linear-gradient(#0f234f, #000);
+    /* background: linear-gradient(45deg, #f5f5f5, #e0e0e0); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.order_type_name{
+    margin: 5px;
+    margin-left: 340px;
+    font-size: 15px;
+}
+
+
+.patient_details {
+    margin-left: 12px;
+}
+
+.patient_name,
+.patient_time,
+.patient_date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.patient_name_type,
+.patient_time_title,
+.patient_date_title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333333;
+}
+
+.patient_name_value,
+.patient_time,
+.patient_date_value {
+    font-size: 16px;
+    color: #555555;
+    white-space: nowrap;
+    margin-right: 3px;
+}
+
+.session {
+    font-size: 14px;
+    color: #ff0000;
+    margin-left: 4px;
+}
+
+.patient_name,
+.patient_time,
+.patient_date {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 1.5px;
+    transition: box-shadow 0.3s ease;
+background: linear-gradient(45deg, #f5f5f5, #e0e0e0);    
+    }
+
+
+
+.icon {
+    font-size: 32px;
+    margin-right: 15px;
+    margin: 10px;
+    color: black !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: #ff0000;
+}
+
+.lab-test-card{
+        width: 480px;
+            /* height: 500px; */
+            background: linear-gradient(#0f234f, #000);
+            /* background: linear-gradient(45deg, #f5f5f5, #e0e0e0); */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            border: 1px solid #e0e0e0;
+}
+
+.pharamacy-card{
+            width: 480px;
+                /* height: 250px; */
+                background: linear-gradient(#0f234f, #000);
+                /* background: linear-gradient(45deg, #f5f5f5, #e0e0e0); */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 12px;
+                border: 1px solid #e0e0e0;
+}
+
+.lab_img{
+    margin-top:20px;
+            margin-left: 350px;
+}
+
+.test_input{
+    margin-top: -250px;
+}
+.lab_pay_now{
+    width: 120px;
+        margin-left: 330px;
+        margin-top: 25px;
+        background: linear-gradient(45deg, #ff5050, #ff0000);
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 12px;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s ease, transform 0.2s ease;
+        cursor: pointer;
+    }
+    
+    .lab_pay_now:hover {
+        background: linear-gradient(45deg, #cc0000, #990000);
+        transform: scale(1.05);
+    }
+
+
+    .med_img{
+        margin-left: 350px;
+        margin-top: 20px;
+    }
+
+    .med_pay_now{
+    width: 120px;
+        margin-left: 330px;
+        margin-top: 25px;
+        background: linear-gradient(45deg, #ff5050, #ff0000);
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 12px;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s ease, transform 0.2s ease;
+        cursor: pointer;
+    }
+
+        .med_pay_now:hover {
+        background: linear-gradient(45deg, #cc0000, #990000);
+        transform: scale(1.05);
+    }
+
+
+    .lab-test_name,.lab-test-date,.lab-test-time,.lab-test-tags,.lab_test_field_description{
+        display: flex;
+        flex-direction: row;
+            border: 1px solid #e0e0e0;
+                border-radius: 12px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                width: 280px;
+                margin: 10px;
+                padding: 1.5px;
+                transition: box-shadow 0.3s ease;
+                background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
+    }
+
+
+    .lab_test_field_name,.lab_test_field_description,.lab_test_field_date,.lab_test_field_time,.lab_test_field_tag{
+    font-size: 14px;
+        font-weight: bold;
+        margin-right: 10px;
+        color: #333333;
+    }
+
+    .lab-name_value,.lab_test_date_value,.lab_test_time_value{
+            font-size: 16px;
+                color: #555555;
+                white-space: nowrap;
+                margin-right: 3px;
+                margin-top: 8px;
+    }
+
+    .lab_test_field_description_value{
+        width: 280px;
+        margin:20px;
+    }
+
+
+.lab_tags{  
+  background: linear-gradient(45deg, #ffcc00, #ff3300);
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  transition: background 0.3s ease,
+  transform 0.2s ease,
+  box-shadow 0.3s ease;
+height: 18px;
+width: 68px;
+text-align: center;
+margin-left: 50px;
+margin-top:15px;
+  }
+
+.quantity-container{
+                margin-left: 360px;
+}
+
+.quantity-container {
+  margin-left: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.quantity-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-btn {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.quantity-btn:hover {
+  background: #f5f5f5;
+}
+
+.quantity-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}

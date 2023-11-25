@@ -24,11 +24,14 @@ overlayTitle: "About LifePlus Hospital",
   ]
   return (
     <>
+  <Header />
+
+
     <Container>
-      <Header/>
+
       {
   header.map ((item, index) => (
-<div className="header" key={index}>
+<div className="header" key={index} style={{marginLeft:"-30px"}}>
   <div className="image-container" >
     <img
       src={item.headerImg}

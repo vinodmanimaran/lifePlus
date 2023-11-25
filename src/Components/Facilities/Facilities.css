@@ -1,15 +1,11 @@
 .facility_container{
     background-image: url('../../Assets/about_assets/bgz.jpg');
-    /* Replace 'your-image-url.jpg' with the URL of your image */
     background-size:cover;
-    /* Adjust as needed (e.g., 'contain', '100%', 'auto') */
     /* background-color: black; */
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
     margin: 20px;
-    /* Adjust as needed (e.g., 'left top') */
-    /* Additional background properties can be added here, such as background-color */
 }
 .our_values_heading{
     color: #ffffff;
@@ -40,8 +36,4 @@
 .value-item {
     display: flex;
     justify-content: space-between;
-    /* Adjust as needed */
-    /* margin-bottom: 16px;
-    margin-left: -5%; */
-    /* Adjust as needed */
 }

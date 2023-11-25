@@ -16,9 +16,7 @@ import DoctorDetails from './DoctorDetails.jsx';
 const Docter = () => {
   return (
     <div className='main main_doctor_page'>
-      <div className='header'>
-        <Header />
-      </div>
+  <Header />;
 
       {/* Availability Search */}
       <section>

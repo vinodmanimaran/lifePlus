@@ -1,0 +1,8 @@
+.addtocart_left_right{
+    display: flex;
+    flex-direction: row
+}
+
+.customer_details-form{
+    margin-left: 150px;
+}

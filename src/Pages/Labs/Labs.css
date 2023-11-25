@@ -1,0 +1,393 @@
+.lab-card{
+width: 680px;
+height: 380px;
+border: 1px solid #ddd;
+border-radius: 15px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+overflow: hidden;
+background-color: #f8f8f8;
+transition: box-shadow 0.3s ease;
+background: linear-gradient(135deg, #f7f7f7, #e0e0e0);
+}
+
+.banner_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    max-width:1200px;
+    padding: 20px;
+    background-color: #e74c3c;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.nav_btn {
+    margin-left: 88%;
+    margin-top: -5px;
+}
+
+.banner-img {
+    margin: 25px;
+}
+
+.banner_text {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 150px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner_img {
+    width: 20%;
+}
+
+.banner_container {
+    clear: both;
+}
+
+.nav_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #ff0000, #cc0000);
+}
+
+.nav_btn:hover {
+    background-color: #cc0000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav_header {
+    background-color: #0f234f;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hospital_btn {
+    width: 150px;
+    height: 40px;
+    background-color: #df2e26;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 0 #b6231b;          
+  transition: background-color 0.3s ease;
+}
+.home_btn:hover,.hospital_btn:hover{
+        background-color: #c3241d;
+}
+
+
+.lab_btns {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.home_btn {
+    background-color: #df2e26;
+    color: #fff;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-left: -5%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 0 #b6231b;
+            transition: background-color 0.3s ease;
+}
+
+.lab_btns {
+    margin: 25px;
+}
+
+.lab_search {
+    margin: 80px;
+    border: 1px solid #ddd;
+    width: 1200px;
+    height: 40px;
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+
+.lab_search_box{
+    margin-left:-10%;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search_icon {
+    color: #555;
+    margin-right: 10px;
+    margin-left: -12%;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.search_icon:hover {
+    color: #333;
+}
+
+
+.test_content_btn {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-left: 65%;
+}
+
+
+.discount_text{
+            width: 130px;
+            height: 40px;
+            margin-left: 100px;
+            text-align: center;
+            font-size: 12px;
+            padding:12px;
+            border: 1px solid #0f234f;
+            border-radius: 8px;
+            background-color: #0f234f;
+            color: #fff;
+            margin: 10px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.5);
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }
+
+.lab_test_img{
+    border-radius: 50%;
+    margin: 3px;
+}
+.lab_test_name{
+    margin: 15px;
+    text-align: left;
+    margin-right: 25%;
+    font-size: 18px;
+        color: #333;
+        font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.p_name{
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.3px;
+    transition: color 0.3s ease-in-out;
+    margin: 10px;
+}
+.test_content{
+    text-align: left;
+    margin-left: 13%;
+    font-size:small;
+    margin-top:"-5%";
+}
+.lab_test_name{
+    text-align: center;
+}
+.schedule_btn:hover{
+    background-color: #c3241d;
+}
+.schedule_btn {
+        width: 130px;
+            height: 40px;
+            margin-left: 5px;
+            text-align: center;
+            font-size: 12px;
+            padding: 12px;
+            border: 1px solid #df2e26;
+            border-radius: 8px;
+            background-color: #df2e26;
+            color: #fff;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.5);
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+
+.benefits,.duration,.description_content{
+    margin-top:-5px;
+    font-size: 10px;
+        width: 250px;
+        /* Add padding for better spacing */
+        background: #ecf0f1;
+        /* Background color */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* Add a subtle box shadow */
+        border-radius: 8px;
+        color: #333;
+        /* Text color */
+        line-height: 1.5;
+        /* Adjust line height for better readability */}
+
+
+.popup-container {
+    /* position: static; */
+    /* top: 45%;
+    right:0;
+    left: 50%;
+    bottom:0;
+    transform: translate(-50%, -50%); */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* padding: 30px;
+    /* z-index: 1000; */
+    /* margin-top: -10%; */ 
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* @media (max-width: 768px) {
+    .banner_container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .banner_img,
+    .banner_text {
+        float: none;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+} */
+.lab_search input[type="text"]::placeholder {
+    color: #ecf0f1;
+    font-style: italic;
+}
+.lab_search input[type="text"] {
+    color: #333;
+    background-color: #fff ;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Responsive Styling */
+ @media (max-width: 768px) {
+.hospital_btn{
+    margin-right:65%;
+}
+.home_btn{
+    margin-left:2%;
+    margin-right:10px;
+}
+.header{
+    width: 200px;
+    height: 55px;
+    margin-left:-11%;
+}
+.header_container{
+   width: 0;
+}
+.logo{
+    margin-right: 71%;
+    margin-top:-1px;
+    margin-bottom: -2px;
+    width: 100px;
+}
+.mobile-menu{
+    margin-top: -30px;
+    margin-right: 2px;
+}
+.utilities-container{
+    margin-top:-10%;
+    margin-left: 50%;
+}
+
+.pc-icon{
+    display:none;
+}
+ }
+
+ .header_container{
+    width:1070px;
+    margin-right: -50%;
+ }
+ .header{
+        margin-left: -90px;
+width: 950px;
+ }
+.banner_container{
+           width: 1060px;
+           margin-left: -4%;
+            height:300px;
+                        }
+ /* Lab Banner Responsive Styling */
+
+ @media (max-width: 768px){
+    .banner_container{
+    width: 450px;
+    /* margin: 30px; */
+    height: 250px;
+  margin-left: 5%;
+    }
+    .banner_slider{
+        margin-left: -15%;
+        width: 480px;
+        height: 300px;
+        /* margin-right: 50%; */
+    }
+    .banner_text{
+        display: none;
+    }
+    .banner_img{
+        margin-right:5%;
+        width: 100px;
+        display: none;
+    }
+    .banner{
+        margin-right: 20% !important;
+        /* margin:10%; */
+        border: 1px solid black;
+    }
+ }
+
+ .banner_text{
+                float: right;
+                display: none;
+                width: 50%;
+                padding: 20px;
+                margin-right:50px;
+                margin-top:50px;
+ }
+ .banner_img{
+    float:left;
+    max-width: 300px;
+ }

@@ -35,9 +35,7 @@ const BookAppoinment = () => {
   
   return (
     <div>
-      <div className="header">
         <Header />
-      </div>
 
       {/* Book appointment section */}
       <section>

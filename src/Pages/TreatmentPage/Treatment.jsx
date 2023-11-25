@@ -45,9 +45,7 @@ const Docter = () => {
 
   return (
     <div className='main' >
-<div className="header" style={{width: '1060px',marginLeft:"-4%"}}>
   <Header />
-</div>
 
 
       {/* Content section */}
